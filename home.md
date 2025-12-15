@@ -1,5 +1,7 @@
 # Awesome AI Video Clipping
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<br>
+📄 **View as a website**: <https://ethanmiller11.github.io/Awesome-AI-Video-Clipping/>
 
 A curated list of high-quality resources for **AI video clipping / highlight extraction / long-to-shorts repurposing**:
 tools, websites, APIs, and open-source building blocks.
