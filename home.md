@@ -56,7 +56,7 @@ Tools that turn long videos into multiple Shorts/Reels/TikToks with automatic hi
 - [Vizard](https://vizard.ai/) (SaaS) — long-form → short clips, "remove bad takes" workflow.
 - [Munch](https://www.getmunch.com/) (SaaS) — AI video repurposing platform for extracting engaging clips.
 - [Riverside Magic Clips](https://riverside.com/magic-clips) (SaaS) — generates short clips from recordings; integrates into a recording workflow.
-- [Wayin Long to Short](https://wayin.ai/tools/long-video-to-short-video/) (SaaS) — 10+ viral clips in 30 seconds with AI moment detection & smart layouts.
+- [WayinVideo Long to Short](https://wayin.ai/tools/long-video-to-short-video/) (SaaS) — 10+ viral clips in 30 seconds with AI moment detection & smart layouts.
 - [vidyo.ai / Quso](https://vidyo.ai/features/video-resizing) (SaaS) — long-form → short-form repurposing & resizing workflows.
 - [VEED Long Video to Short Video](https://www.veed.io/tools/auto-video-editor/long-video-to-short-video-ai) (SaaS) — repurpose long content into shorts.
 - [Short AI (Long → Short)](https://www.short.ai/ai-clip-maker/long-video-to-short-video) (SaaS) — automatic highlight selection for short-form outputs.
@@ -87,7 +87,7 @@ Automatic stream/game highlight extraction and conversion to social formats.
 
 - [Eklipse](https://eklipse.gg/) (SaaS) — AI gaming highlights; export to Shorts/Reels/TikTok.
 - [Powder](https://powder.gg/) (SaaS) — AI clipping for gaming; social-ready highlights.
-- [Wayin Gaming Clips](https://wayin.ai/tools/ai-gaming-clip-generator/) (SaaS) — AI gaming clips with "Find Moments" search & viral score prediction.
+- [WayinVideo Gaming Clips](https://wayin.ai/tools/ai-gaming-clip-generator/) (SaaS) — AI gaming clips with "Find Moments" search & viral score prediction.
 - [Streamlabs Cross Clip](https://streamlabs.com/cross-clip) (SaaS) — convert Twitch clips to TikTok/Shorts/Reels formats.
 
 ---
