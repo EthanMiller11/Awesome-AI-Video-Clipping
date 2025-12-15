@@ -95,6 +95,7 @@ Automatic stream/game highlight extraction and conversion to social formats.
 ## Developer APIs (Understanding / Indexing / Shot Detection)
 For building products: shot/scene segmentation, indexing, search, and enrichment.
 
+- [WayinVideo API](https://wayin.ai/api/) (API) — automate viral clip creation with find moments, animated captions in 100+ languages & AI reframe.
 - [Google Cloud Video Intelligence – Shot Detection](https://docs.cloud.google.com/video-intelligence/docs/shot-detection) (API) — shot change detection / annotation workflows.
 - [AWS Rekognition Video – Segment Detection](https://docs.aws.amazon.com/rekognition/latest/dg/segments.html) (API) — segment detection including shot detection.
 - [Azure AI Video Indexer – Insights Overview](https://learn.microsoft.com/en-us/azure/azure-video-indexer/insights-overview) (API) — transcripts, OCR, faces, topics, and more.
