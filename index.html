@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome AI Video Clipping</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+        }
+        h1, h2, h3 {
+            color: #24292f;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        a {
+            color: #0969da;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 2rem;
+        }
+        li {
+            margin: 0.5rem 0;
+        }
+        code {
+            background-color: #f6f8fa;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        blockquote {
+            border-left: 4px solid #ddd;
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: #666;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 2rem 0;
+        }
+        .badge {
+            background-color: #0969da;
+            color: white;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Awesome AI Video Clipping <span class="badge">Awesome</span></h1>
+
+    <p>A curated list of high-quality resources for <strong>AI video clipping / highlight extraction / long-to-shorts repurposing</strong>:
+    tools, websites, APIs, and open-source building blocks.</p>
+
+    <p>This repo is designed to be useful for:</p>
+    <ul>
+        <li>Creators &amp; marketers (repurpose long videos into Shorts/Reels/TikTok)</li>
+        <li>Editors (transcript-first workflows, silence/filler removal, caption packaging)</li>
+        <li>Developers (shot/scene detection, video search, indexing, automation pipelines)</li>
+    </ul>
+
+    <hr>
+
+    <h2>Legend</h2>
+    <ul>
+        <li><strong>(SaaS)</strong> Hosted product</li>
+        <li><strong>(API)</strong> Developer platform / API</li>
+        <li><strong>(OSS)</strong> Open-source</li>
+        <li><strong>(Desktop)</strong> Local application</li>
+    </ul>
+
+    <hr>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#how-to-use-this-list">How to Use This List</a></li>
+        <li><a href="#long-form--short-form-auto-highlights--auto-clips">Long-form → Short-form (Auto Highlights / Auto Clips)</a></li>
+        <li><a href="#transcript-first-editing-talking-head-acceleration">Transcript-First Editing (Talking-Head Acceleration)</a></li>
+        <li><a href="#captions--short-form-packaging">Captions &amp; Short-Form Packaging</a></li>
+        <li><a href="#gaming--live-highlights">Gaming &amp; Live Highlights</a></li>
+        <li><a href="#developer-apis-understanding--indexing--shot-detection">Developer APIs (Understanding / Indexing / Shot Detection)</a></li>
+        <li><a href="#open-source-building-blocks">Open-Source Building Blocks</a></li>
+        <li><a href="#datasets--benchmarks-highlights--summarization">Datasets &amp; Benchmarks (Highlights / Summarization)</a></li>
+        <li><a href="#repo-maintenance-make-it-high-value-long-term">Repo Maintenance (Make It "High-Value" Long-Term)</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+        <li><a href="#license">License</a></li>
+    </ul>
+
+    <hr>
+
+    <h2 id="how-to-use-this-list">How to Use This List</h2>
+    <p>Start with your primary workflow:</p>
+    <ol>
+        <li><strong>Podcast / interview / lecture</strong> → transcript-driven clipping + reframing</li>
+        <li><strong>Tutorial / webinar</strong> → chapter/segment detection + captions + formatting</li>
+        <li><strong>Gaming / streaming</strong> → event-based highlights + social export</li>
+        <li><strong>Enterprise / platform</strong> → APIs for shot detection + indexing + search</li>
+    </ol>
+
+    <p>Then choose:</p>
+    <ul>
+        <li>A <strong>SaaS</strong> tool if you want speed.</li>
+        <li>An <strong>OSS</strong> pipeline if you want control, privacy, and cost predictability.</li>
+        <li>A <strong>developer API</strong> if you're building a product.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="long-form--short-form-auto-highlights--auto-clips">Long-form → Short-form (Auto Highlights / Auto Clips)</h2>
+    <p>Tools that turn long videos into multiple Shorts/Reels/TikToks with automatic highlight selection and formatting.</p>
+
+    <ul>
+        <li><a href="https://www.opus.pro/tools/long-video-to-short-video-ai">OpusClip</a> (SaaS) — AI repurposing: highlights → short clips.</li>
+        <li><a href="https://klap.app/">Klap</a> (SaaS) — one-click long video → Shorts/Reels/TikTok.</li>
+        <li><a href="https://vizard.ai/">Vizard</a> (SaaS) — long-form → short clips, "remove bad takes" workflow.</li>
+        <li><a href="https://www.getmunch.com/">Munch</a> (SaaS) — AI video repurposing platform for extracting engaging clips.</li>
+        <li><a href="https://riverside.com/magic-clips">Riverside Magic Clips</a> (SaaS) — generates short clips from recordings; integrates into a recording workflow.</li>
+        <li><a href="https://vidyo.ai/features/video-resizing">vidyo.ai / Quso</a> (SaaS) — long-form → short-form repurposing &amp; resizing workflows.</li>
+        <li><a href="https://www.veed.io/tools/auto-video-editor/long-video-to-short-video-ai">VEED Long Video to Short Video</a> (SaaS) — repurpose long content into shorts.</li>
+        <li><a href="https://www.short.ai/ai-clip-maker/long-video-to-short-video">Short AI (Long → Short)</a> (SaaS) — automatic highlight selection for short-form outputs.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="transcript-first-editing-talking-head-acceleration">Transcript-First Editing (Talking-Head Acceleration)</h2>
+    <p>Text-based editing, filler-word removal, and silence/bad-take cutting for talking-head content.</p>
+
+    <ul>
+        <li><a href="https://www.descript.com/tools/remove-filler-from-video">Descript – Remove Filler From Video</a> (SaaS) — transcript-first editing + filler removal.</li>
+        <li><a href="https://www.gling.ai/save-time">Gling</a> (SaaS) — auto remove silences, filler words, bad takes.</li>
+        <li><a href="https://github.com/WyattBlue/auto-editor">auto-editor</a> (OSS) — command-line auto-cut based on audio loudness.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="captions--short-form-packaging">Captions &amp; Short-Form Packaging</h2>
+    <p>Captioning, animated subtitles, and "viral caption" styling workflows.</p>
+
+    <ul>
+        <li><a href="https://www.kapwing.com/subtitles">Kapwing Subtitles</a> (SaaS) — auto subtitles + export formats.</li>
+        <li><a href="https://www.veed.io/tools/auto-video-editor/ai-clip-generator">VEED AI Clip Generator</a> (SaaS) — AI clip generation + web editor.</li>
+        <li><a href="https://www.submagic.co/">Submagic</a> (SaaS) — captions + b-roll + short-form edits.</li>
+        <li><a href="https://zeemo.ai/">Zeemo</a> (SaaS) — captions/subtitles workflows and related tooling.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="gaming--live-highlights">Gaming &amp; Live Highlights</h2>
+    <p>Automatic stream/game highlight extraction and conversion to social formats.</p>
+
+    <ul>
+        <li><a href="https://eklipse.gg/">Eklipse</a> (SaaS) — AI gaming highlights; export to Shorts/Reels/TikTok.</li>
+        <li><a href="https://powder.gg/">Powder</a> (SaaS) — AI clipping for gaming; social-ready highlights.</li>
+        <li><a href="https://streamlabs.com/cross-clip">Streamlabs Cross Clip</a> (SaaS) — convert Twitch clips to TikTok/Shorts/Reels formats.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="developer-apis-understanding--indexing--shot-detection">Developer APIs (Understanding / Indexing / Shot Detection)</h2>
+    <p>For building products: shot/scene segmentation, indexing, search, and enrichment.</p>
+
+    <ul>
+        <li><a href="https://docs.cloud.google.com/video-intelligence/docs/shot-detection">Google Cloud Video Intelligence – Shot Detection</a> (API) — shot change detection / annotation workflows.</li>
+        <li><a href="https://docs.aws.amazon.com/rekognition/latest/dg/segments.html">AWS Rekognition Video – Segment Detection</a> (API) — segment detection including shot detection.</li>
+        <li><a href="https://learn.microsoft.com/en-us/azure/azure-video-indexer/insights-overview">Azure AI Video Indexer – Insights Overview</a> (API) — transcripts, OCR, faces, topics, and more.</li>
+        <li><a href="https://docs.twelvelabs.io/docs/guides/search">TwelveLabs – Search Guides</a> (API) — video understanding/search for finding specific moments.</li>
+        <li><a href="https://cloudinary.com/documentation/content_aware_video_cropping_tutorial">Cloudinary – Content-aware Video Cropping</a> (API) — automated cropping to keep salient content.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="open-source-building-blocks">Open-Source Building Blocks</h2>
+    <p>Recommended OSS modules for assembling your own clipping pipeline.</p>
+
+    <h3>Speech-to-Text / Alignment</h3>
+    <ul>
+        <li><a href="https://github.com/openai/whisper">Whisper</a> (OSS) — multilingual ASR / translation.</li>
+        <li><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a> (OSS) — Whisper via CTranslate2 for faster inference.</li>
+        <li><a href="https://github.com/m-bain/whisperX">whisperX</a> (OSS) — word-level timestamps + diarization workflows.</li>
+        <li><a href="https://github.com/ggml-org/whisper.cpp">whisper.cpp</a> (OSS) — C/C++ port optimized for local inference.</li>
+    </ul>
+
+    <h3>Shot / Scene / Segment Detection</h3>
+    <ul>
+        <li><a href="https://github.com/Breakthrough/PySceneDetect">PySceneDetect</a> (OSS) — shot change detection + optional splitting.</li>
+    </ul>
+
+    <h3>Clip Generation / Repurposing</h3>
+    <ul>
+        <li><a href="https://github.com/ClipsAI/clipsai">ClipsAI</a> (OSS) — transcript-aware long video → clips; includes aspect ratio conversion.</li>
+    </ul>
+
+    <h3>Editing / Assembly</h3>
+    <ul>
+        <li><a href="https://github.com/Zulko/moviepy">MoviePy</a> (OSS) — Python video editing (cut/concat/composite).</li>
+        <li><a href="https://github.com/WyattBlue/auto-editor">auto-editor</a> (OSS) — remove dead space/silence automatically.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="datasets--benchmarks-highlights--summarization">Datasets &amp; Benchmarks (Highlights / Summarization)</h2>
+    <p>Useful for research, evaluation, or building custom highlight selection models.</p>
+
+    <ul>
+        <li><a href="https://github.com/yalesong/tvsum">TVSum</a> — classic benchmark dataset for video summarization.</li>
+        <li><a href="https://videoxum.github.io/">VideoXum</a> — cross-modal video summarization benchmark (video + aligned text).</li>
+        <li><a href="https://github.com/MRHiSum/MR.HiSum">Mr. HiSum</a> — large-scale highlight detection &amp; summarization dataset.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="repo-maintenance-make-it-high-value-long-term">Repo Maintenance (Make It "High-Value" Long-Term)</h2>
+    <p>To keep this list credible and useful over time:</p>
+    <ul>
+        <li>Use <a href="https://github.com/sindresorhus/awesome-lint">awesome-lint</a> to enforce Awesome list conventions.</li>
+        <li>Add a weekly link checker via GitHub Actions (avoid link rot).</li>
+        <li>Require short, factual annotations per item:
+            <ul>
+                <li>What it does (one sentence)</li>
+                <li>Category tag (SaaS/API/OSS/Desktop)</li>
+                <li>Primary use case (podcast/talking-head/tutorial/gaming/dev-platform)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2 id="contributing">Contributing</h2>
+    <p>PRs welcome. Please:</p>
+    <ul>
+        <li>Add official links whenever possible.</li>
+        <li>Provide a one-line description and a category tag.</li>
+        <li>Avoid affiliate links.</li>
+        <li>Keep the list organized by category.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="license">License</h2>
+    <p>Consider CC0 (public domain) to maximize reuse.</p>
+</body>
+</html>
