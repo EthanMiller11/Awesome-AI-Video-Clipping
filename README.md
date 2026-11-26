@@ -62,6 +62,7 @@ Tools that turn long videos into multiple Shorts/Reels/TikToks with automatic hi
 - [vidyo.ai / Quso](https://vidyo.ai/features/video-resizing) (SaaS) — long-form → short-form repurposing & resizing workflows.
 - [VEED Long Video to Short Video](https://www.veed.io/tools/auto-video-editor/long-video-to-short-video-ai) (SaaS) — repurpose long content into shorts.
 - [Short AI (Long → Short)](https://www.short.ai/ai-clip-maker/long-video-to-short-video) (SaaS) — automatic highlight selection for short-form outputs.
+- [Valmera Shorts](https://valmera.io/tools/ai-clip-maker) (SaaS) — finds self-contained moments in uploaded podcasts, webinars and interviews, then lets you review and revise captioned vertical cuts before MP4 export (subscription required for editing).
 
 ---
 
